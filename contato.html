@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho da Faculdade</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="images/TWICE_LOGO.png"></a>
+        <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+            <li><a href="sobre.html">SOBRE MIM</a></li>
+            <li><a href="formacao.html">FORMAÇÃO</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="portifolio.html">PORTIFÓLIO</a></li>
+        </ul>
+        </div>
+        <i class="fa fa-bars"onclick="showMenu()"></i>
+    </nav>
+    <h1>Contato</h1>
+</section>
+
+<section class="contat-content">
+    <div class="row">
+        <div class="contat-left">
+            <h2>Github</h2>
+            <img src="images/github.jpg">
+            <p>Nome de usuário: Trixaew</p>
+            
+        </div>
+    </div>
+    <div class="row">
+        <div class="contat-left">
+            <h2>Email</h2>
+            <img src="images/gmail.jpg">
+            <p>Email: biatsmax@gmail.com</p>
+            
+        </div>
+    </div>
+</section>
+
+
+
+
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
